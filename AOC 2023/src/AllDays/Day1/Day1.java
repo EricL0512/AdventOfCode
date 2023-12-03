@@ -1,3 +1,5 @@
+package Day1;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -5,9 +7,9 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class Day1 {
     public static void main(String[] args) throws FileNotFoundException {
-        String inputLocation = "C:\\Users\\ericl\\IdeaProjects\\AOC 2023\\src\\1AOC2023.txt"; //I have no idea how to read files from the same project, so I used absolute path
+        String inputLocation = "C:\\Users\\ericl\\IdeaProjects\\AOC2023\\AOC 2023\\src\\AllDays\\Day1\\1AOC2023.txt"; //I have no idea how to read files from the same project, so I used absolute path
         int resultPartOne = 0;
         int resultPartTwo = 0;
         try(BufferedReader br = new BufferedReader(new FileReader(inputLocation))) {
