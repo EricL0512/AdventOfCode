@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Day2 {
     public static void main(String[] args) throws FileNotFoundException {
-        String inputLocation = "C:\\Users\\ericl\\IdeaProjects\\AOC2023\\AOC 2023\\src\\AllDays\\Day2\\2AOC2023.txt"; //I have no idea how to read files from the same project, so I used absolute path
+        String inputLocation = "2023/Java/Day2/2AOC2023.txt";
         int resultPartOne = 0;
         int resultPartTwo = 0;
         try (BufferedReader br = new BufferedReader(new FileReader(inputLocation))) {

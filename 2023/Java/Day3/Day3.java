@@ -12,8 +12,7 @@ public class Day3 {
     public static void main(String[] args) throws FileNotFoundException {
         List<String> EachLine = new ArrayList<>();
         List<List<String>> StringList = new ArrayList<>();
-        String inputLocation = "C:\\Users\\ericl\\IdeaProjects\\AOC2023\\AOC 2023\\src\\AllDays\\Day2\\2AOC2023.txt"; //I have no idea how to read files from the same project, so I used absolute path
-        int resultPartOne = 0;
+        String inputLocation = "2023/Java/Day3/3AOC2023.txt"; 
         int resultPartTwo = 0;
         try (BufferedReader br = new BufferedReader(new FileReader(inputLocation))) {
             StringBuilder sb = new StringBuilder();
@@ -26,8 +25,9 @@ public class Day3 {
                 if (line != null) { // reads remaining lines
                 }
             }
-            System.out.printf("PART 1:\n" + resultPartOne + "\n");
-            System.out.printf("PART 2:\n" + resultPartTwo + "\n");
+            // WIP
+            // System.out.printf("PART 1:\n" + resultPartOne + "\n");
+            // System.out.printf("PART 2:\n" + resultPartTwo + "\n");
             String everything = sb.toString();
         } catch (IOException e) {
             throw new RuntimeException(e);

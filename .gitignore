@@ -1,0 +1,5 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
